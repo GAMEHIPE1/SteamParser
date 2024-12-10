@@ -1,6 +1,6 @@
-# class SteamParser:
+# `class SteamParser`
 
-**Есть пока что 3 функции
+# **Есть пока что 3 функции
 
 # `get_account_info(link: str) -> dict`
 
