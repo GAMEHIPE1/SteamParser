@@ -1,3 +1,32 @@
+### `get_account_info(steam_id: str) -> dict`
+
+Извлекает информацию об аккаунте пользователя Steam по заданному идентификатору.
+
+#### Параметры:
+
+- **steam_id** (`str`): Идентификатор Steam пользователя (например, `'76561199180091312'`).
+
+#### Возвращает:
+
+`dict`: Словарь, содержащий информацию об аккаунте в следующем формате:
+
+```python
+{
+    'steamID': '76561199180091312',
+    'name': 'allanchik',
+    'description': 'thanks for buying :)',
+    'other_name': [
+        {'newname': 'allanchik', 'timechanged': '24 ноя в 6:46'},
+        {'newname': 'misipi', 'timechanged': '24 ноя в 6:00'},
+        {'newname': 'Seven', 'timechanged': '25 окт в 10:06'},
+        {'newname': 'frost', 'timechanged': '8 окт в 7:13'}
+    ],
+    'avatarFull': 'https://avatars.fastly.steamstatic.com/83048dc27b9ecbe0fbc9a02397881f1546bb66e8_full.jpg',
+    'vacBanned': 0,
+    'onlineState': 'In-Game/Soundpad',
+    'date_reg': 'June 13, 2021'
+}
+```
 # `find_game(pattern: str, supportedlang='russian', page_start=0) -> dict`
 
 Ищет игры на платформе Steam по заданному шаблону и возвращает список результатов.
