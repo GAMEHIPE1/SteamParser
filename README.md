@@ -1,4 +1,4 @@
-#### `find_game(pattern: str, supportedlang='russian', page_start=0) -> dict`
+# `find_game(pattern: str, supportedlang='russian', page_start=0) -> dict`
 
 Ищет игры на платформе Steam по заданному шаблону и возвращает список результатов.
 
@@ -37,7 +37,8 @@
 }
 ```
 
-### `find_info(link: str, strict_regime=True) -> dict`
+
+# `find_info(link: str, strict_regime=True) -> dict`
 
 Извлекает информацию о игре из магазина Steam по заданной ссылке.
 
