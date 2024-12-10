@@ -33,7 +33,8 @@
 ```python
 {
     'game_name': 'url',
-    'another_game_name': 'url',
+    'game_name': 'url',
+    'game_name': 'url'
 }
 ```
 
